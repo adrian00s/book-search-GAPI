@@ -1,0 +1,38 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Khula:300&display=swap');
+
+/* BLOCK */
+body,html { background:   #4587fa; font-family: 'Quattrocento Sans';  }
+h1 { font-size: 1.7em; }
+* {font-family: 'Khula'; }
+
+main { min-height: 100%; margin-bottom: 155.5px; }
+main:after { content: ""; display: block; }
+footer, main:after { height: -50px; }
+
+
+/* ELEMENT */
+.img__index { width: 20em; }
+span.char8, span.char9, span.char10, span.char11, span.char12, span.char13, span.char14, span.char15{
+    font-weight: bold;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/* MODIFIER */
+.h1__text-shadow { text-shadow: 1px 1px 0.5px #fff; }
+
+
+
+/* RESPONSIVE */
+@media (min-width: 576px) {
+    .img__index { width: 23em; }
+    h1 { font-size: 2em; }
+}
+
+@media (min-width: 768px) { 
+    .img__index { width: 26em; }
+    h1 { font-size: 2.7em; }
+}

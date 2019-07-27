@@ -21,3 +21,6 @@
 //     e.preventDefault();
 // }
 
+// Arc text
+$('.h1__text-shadow').arctext({radius:410});
+
