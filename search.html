@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendors/mdb.min.css">
+    <link rel="stylesheet" href="css/vendors/hover-min.css">
+    <link rel="stylesheet" href="css/vendors/all.min.css">
+
+    <!-- own styles -->
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+
+    <main>
+    <div class="container">
+
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-12 d-flex justify-content-center text-center mt-1">
+                <h1 class="text-white font-weight-bold shadow--black">Type your book title</h1>
+            </div>
+        </div><!-- end row -->     
+
+        <div class="row">
+            
+            <div class="container d-sm-flex justify-content-center offset-sm-2 offset-md-0 offset-lg-1 mt-4">
+                <div class="col-md-4 offset-md-1">
+                    <div class="md-form form-sm">                        
+                        <input type="text" id="inputSearch" class="form-control form-control-sm text-white">
+                        <label for="inputSearch" class="text-white">Enter book title</label>
+                    </div>                           
+                </div><!-- end col-md-12 -->
+
+                <div class="col-md-4 d-sm-flex text-center align-items-end">
+                    <button class="btn btn-success" id="searchBtn">Search <i class="ml-1 far fa-search"></i></button>
+                </div>
+
+            </div><!-- end container -->    
+        </div><!-- end row -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="content"></p>
+                </div>
+            </div>
+        </div>
+    </div><!-- end container -->
+
+</main>
+ 
+<footer class="page-footer font-small unique-color-dark pt-2">
+        <div class="container text-center mt-2">
+            <p>Made with <a class="hvr-icon-pop" href="https://github.com/adrian00s" target="_blank">
+                <i class="text-danger fal fa-heart hvr-icon"></i>
+            </a> by Adrian.</p>
+        </div><!-- end container -->
+
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://github.com/adrian00s" target="blank"> Adrian Iordache</a>
+        </div>
+</footer><!-- end footer -->
+
+
+
+
+
+
+
+
+
+    <!-- scripts vendors-->
+    <script src="js/vendors/jquery-3.4.1.min.js"></script>
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/mdb.min.js"></script>
+    <!-- self scripts -->
+    <script src="js/search-book.js"></script>
+</body>
+</html>
