@@ -7,7 +7,7 @@ body,html { background:   #4587fa; font-family: 'Quattrocento Sans';  }
 h1 { font-size: 1.7em; }
 * {font-family: 'Khula'; }
 
-main { min-height: 100%; margin-bottom: 155.5px; }
+main { min-height: 100%; margin-bottom: 232px; }
 main:after { content: ""; display: block; }
 footer, main:after { height: -50px; }
 
