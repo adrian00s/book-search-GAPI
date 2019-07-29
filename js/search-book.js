@@ -36,7 +36,7 @@ function request(e, maxResults, startIndex){
 
                 $('body, html').animate({
                     'scrollTop': 0
-                }, 750);
+                }, 1000);
             }
         });
 
@@ -166,7 +166,7 @@ function nextPrevPage(newIndex, maxResults){
 
             $('body, html').animate({
                 'scrollTop': 0
-            }, 750);
+            }, 1000);
         });
         
         // add listener here so prev can be identified every time a new request is made
@@ -178,7 +178,7 @@ function nextPrevPage(newIndex, maxResults){
 
             $('body, html').animate({
                 'scrollTop': 0
-            }, 750);
+            }, 1000);
          }); 
 
     }).fail(function(){
